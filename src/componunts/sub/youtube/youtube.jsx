@@ -4,7 +4,7 @@ import Layout from '../../common/layout/layout';
 
 export default function Youtube() {
 	return (
-		<Layout title={'Department'}>
+		<Layout title={'Youtube'}>
 			<p>YouTube Page입니다.</p>
 		</Layout>
 	);
