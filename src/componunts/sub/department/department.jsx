@@ -1,14 +1,11 @@
-import style from './department.module.scss';
-import clsx from 'clsx';
+import Layout from '../../common/layout/layout';
+//import style from './department.module.scss';
+//import clsx from 'clsx';
 
 export default function Department() {
 	return (
-		<section className={clsx(style.department)}>
-			<figure>
-				<div className={clsx(style.content)}>
-					<h1>Department</h1>
-				</div>
-			</figure>
-		</section>
+		<Layout>
+			<p>Department Page입니다.</p>
+		</Layout>
 	);
 }
