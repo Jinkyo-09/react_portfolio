@@ -26,6 +26,18 @@
 	}
 }
 
+.header.main {
+	h1 {
+		color: aqua;
+	}
+}
+
+.header.sub {
+	h1 {
+		color: pink;
+	}
+}
+
 @media screen and (max-wid: $tablet) {
 	.header {
 		ul {

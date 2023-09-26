@@ -2,9 +2,10 @@ import style from './header.module.scss';
 import clsx from 'clsx';
 import { link, NavLink } from 'react-router-dom';
 
-export default function Header() {
+export default function Header(isMain) {
 	return (
-		<Header className={clsx(style.header)}>
+		//헤더가 메인에서 호출되면 main클래스 추가 서브에서 호출되면sub클래스 추가
+		<Header className={clsx(style.header, isMain ? style.main : style.sub)}>
 			<h1>
 				<link to='/'>LOGO</link>
 			</h1>

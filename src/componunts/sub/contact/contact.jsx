@@ -1,5 +1,5 @@
 import Layout from '../../common/layout/layout';
-import style from './department.module.scss';
+//import style from './department.module.scss';
 import clsx from 'clsx';
 
 export default function Contact() {
